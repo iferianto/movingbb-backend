@@ -1,5 +1,14 @@
 # Project Banner GPS
 
+Admin at:
+
+http://www.otomotifzone.com/movingbb-backend/index.php
+
+
+There is an gps emulator links inside admin pages, just lauch it
+
+
+
 ###This is notes for update git
 
 ```
