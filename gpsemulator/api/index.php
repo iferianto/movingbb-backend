@@ -1,6 +1,7 @@
 <?php
 
 
+/*
 if (!isset($_SERVER['HTTP_ORIGIN'])) {
   // This is not cross-domain request
   exit;
@@ -28,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     exit;
 }
 
-
+*/
 
 
 // Connection to postgres
@@ -36,7 +37,19 @@ $db=false;
 $r=(isset($_REQUEST['r'])?$_REQUEST['r']:'');
 
 if($r=='getscore'){
-   $db=new PDO("pgsql:dbname=gis;host=localhost","postgres","postgres") or die("error db");
+   $db=new PDO("pgsql:dbname=gis;host=127.0.0.1","postgres","postgres") or die("error db");
+
+/*
+echo "<pre>";
+  $sql="select * from positions limit 10";
+   $result=$db->query($sql);
+   while($row=$result->fetch(PDO::FETCH_NUM)){
+    var_dump($row);
+   }
+
+
+exit;
+*/
 
    $result=$db->query("SELECT sum(score) as mscore from banner_route where device_id=4");
    $score=0;
@@ -59,7 +72,7 @@ if($r=='getscore'){
 }else{
 
   // Connection to postgres
-  if($db===false) $db=new PDO("pgsql:dbname=gis;host=localhost","postgres","postgres") or die("error db");
+  if($db===false) $db=new PDO("pgsql:dbname=gis;host=127.0.0.1","postgres","postgres") or die("error db");
 
   $lat=(isset($_REQUEST['lat'])?$_REQUEST['lat']:0);
   $lon=(isset($_REQUEST['lon'])?$_REQUEST['lon']:0);
@@ -67,8 +80,7 @@ if($r=='getscore'){
   " select 'osmand',4,now()::timestamp,now()::timestamp,now()::timestamp,false,%f,%f,0,0,0,''",$lat,$lon);
   $db->query($sql);
 
-  echo $sql;
-exit;
+  echo $sql.";\n";
 
   $db=null;
 

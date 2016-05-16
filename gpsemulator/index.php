@@ -138,7 +138,7 @@ function autoRefresh(map, pathCoords) {
 function sendToserver(lat,lon){
 $.ajax({
   type: 'POST',
-  url: 'http://otomotifzone.com/movingbb-backend/gpsemulator/api/index.php?r=receivelog/post',
+  url: 'api/index.php?r=receivelog/post',
   data: {lat:lat,lon:lon},
   success:function(){},
   dataType:'json',
@@ -220,7 +220,7 @@ function geocodePosition(pos)
 function getscore(){
  $.ajax({
   type: 'GET',
-  url: 'http://otomotifzone.com/movingbb-backend/gpsemulator/api/index.php?r=getscore',  
+  url: 'api/index.php?r=getscore',  
   success:function(data){
      if(data.score) $("#scorediv").html("Earn Score:<br><font color=red style=\"font-size:30px\">"+data.score+"</font>");
 	 if(data.road){
