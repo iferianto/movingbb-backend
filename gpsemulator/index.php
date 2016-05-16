@@ -16,7 +16,7 @@ display:inline-block;
 border-right:1px solid #ddd;
 padding:0 .2em;
 margin-right:.5em;color:#888;}
-#nav{height:50px;padding:5px}
+#nav{height:80px;padding:5px}
 #mapErrorMsg{position:absolute;top:10px;left:10px;
 background:#fff;z-index:1000;width:500px;height:500px;visibility:hidden}
 #btnGetscore{visibility:visible;background:#555500;color:#ffffff}
@@ -24,7 +24,7 @@ background:#fff;z-index:1000;width:500px;height:500px;visibility:hidden}
 #scorediv{
 z-index:1000;
 position:absolute;
-top:60px;left:830px;
+top:90px;left:830px;
 width:150px;height:50px;background:#ffff00;color:#000;
 padding:20px;font-size:20px;font-weight:bold;
 border:2px #000 solid;
@@ -33,7 +33,7 @@ border:2px #000 solid;
 visibility:visible;
 z-index:1000;
 position:absolute;
-top:180px;left:830px;
+top:190px;left:830px;
 width:400px;height:300px;background:#fff;color:#000;
 padding:20px;font-size:12px;font-weight:normal;
 border:2px #000 solid;
@@ -273,7 +273,9 @@ $( document ).ready(function() {
 </script>
 <body onload="initMap()">
 <div id="nav">
-Routing procedure will draw routing direction from A to B, simulate will act as GPS traccker for that route<br>
+Routing procedure will draw routing direction from A to B<br>
+Simulate will act as GPS traccker (<b>devcoba</b>  id=4) and send position to GPS Server<br>
+then on server will be calculated via trigger which road is car moving and calculate score<br>
 <input type="button" id="btnRouting" onclick="routing()" value="calc routing"/>
 <input type="button" id="btnSimulate" onclick="simulate()" value="simulate gps tracker"/>
 <input type="button" id="btnClearlog" onclick="clearlog()" value="clearlog"/>

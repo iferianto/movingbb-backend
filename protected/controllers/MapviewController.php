@@ -51,7 +51,7 @@ class MapviewController extends Controller
 		   $rs=Yii::app()->db->createCommand($sql)->queryRow();
 		   if($rs){ $info=$rs; $info['name']="Road: ".$rs['street_name'];$info['type']='road'; }
 		}else{
-                   $deviceid=5;
+                   $deviceid=4;
                    $sql=sprintf("select p.deviceid,p.latitude,p.longitude,d.name,d.status,d.uniqueId,d.protocol,d.tipe,d.merek from positions p left join devices d on d.id=p.deviceid where p.deviceid='%s' order by deviceTime DESC limit 1",$deviceid);
 		   $rs=Yii::app()->db->createCommand($sql)->queryRow();
 		   if($rs){ $info=$rs;$info['name']="Device: ".$rs['name'];$info['type']='device'; $deviceid=$info['deviceid'];}

@@ -38,19 +38,6 @@ $r=(isset($_REQUEST['r'])?$_REQUEST['r']:'');
 
 if($r=='getscore'){
    $db=new PDO("pgsql:dbname=gis;host=127.0.0.1","postgres","postgres") or die("error db");
-
-/*
-echo "<pre>";
-  $sql="select * from positions limit 10";
-   $result=$db->query($sql);
-   while($row=$result->fetch(PDO::FETCH_NUM)){
-    var_dump($row);
-   }
-
-
-exit;
-*/
-
    $result=$db->query("SELECT sum(score) as mscore from banner_route where device_id=4");
    $score=0;
    if($result!=null){
