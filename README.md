@@ -4,6 +4,10 @@ Admin at:
 
 http://www.otomotifzone.com/movingbb-backend/index.php
 
+user:  admin
+pass:  admin
+
+
 
 There is an gps emulator links inside admin pages, just lauch it
 
