@@ -1,0 +1,2 @@
+    $key = $this->hexToStr($row['salto']);
+              $hashed = hash_pbkdf2("sha1",$data, $key,1000,24,true); 

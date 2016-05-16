@@ -1,0 +1,17 @@
+.appendoButtons button{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background:#C3D9FF;
+    /*background-image: linear-gradient(to bottom, #C3D9FF, #030999);*/
+    border:1px #fff solid;
+    border-radius: 6px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.098) inset, 0 1px 5px rgba(0, 0, 0, 0.247);
+    color: #000;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 5px 14px;
+    transition: none 0s ease 0s;
+}
+.appendo-gii{margin:0px !important}

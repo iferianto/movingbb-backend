@@ -1,0 +1,250 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+.ui-datepicker{z-index:1000 !important}
+#page
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	background: white;
+	border: 1px solid #C9E0ED;
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+}
+
+#content
+{
+    padding:5px;
+	min-height:600px;
+}
+
+.bglogin{background:#eee}
+.form-signin-heading{width:100%;text-align:center;background:#2d5984;color:#FFF;
+border-bottom:5px #999 solid;margin:0px;
+font-weight:bold;
+padding:10px;font-size:20px;text-transform:uppercase}
+#loginbtn{width:100%}
+#login1{
+background:#fff;
+width:300px;
+margin:50px auto;
+padding:0px;
+}
+#login-form{margin:0px;padding:0px}
+#login-form input[type="text"],#login-form input[type="password"]{width:100%;
+font-weight:bold;
+}
+.formmobile{padding:10px}
+.pad10{width:240px;margin:0px auto}
+
+#sidebar
+{
+	padding: 0px 0px 0px 0;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+}
+
+#mainmenu
+{
+	background:white url(bg.gif) repeat-x left top;
+}
+
+#mainmenu ul
+{
+	padding:6px 20px 5px 20px;
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+}
+
+#mainmenu ul li a
+{
+	color:#ffffff;
+	background-color:transparent;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #6399cd;
+	background-color:#EFF4FA;
+	text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 10px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding:5px;
+	margin:0px 0;
+	background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+}
+
+/*form*/

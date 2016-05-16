@@ -1,0 +1,1548 @@
+2016/03/30 05:36:02 [error] [php] Undefined index: type (/var/www/html/imam/banner/protected/views/mapview/maps.php:37)
+Stack trace:
+#0 /var/www/html/imam/banner/protected/framework/web/CController.php(869): MapviewController->renderFile()
+#1 /var/www/html/imam/banner/protected/framework/web/CController.php(782): MapviewController->renderPartial()
+#2 /var/www/html/imam/banner/protected/controllers/MapviewController.php(54): MapviewController->render()
+#3 /var/www/html/imam/banner/protected/framework/web/actions/CInlineAction.php(49): MapviewController->actionIndex()
+#4 /var/www/html/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/imam/banner/protected/framework/web/filters/CFilterChain.php(133): MapviewController->runAction()
+#6 /var/www/html/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/html/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/html/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): MapviewController->filterAccessControl()
+#9 /var/www/html/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/html/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/html/imam/banner/protected/framework/web/CController.php(265): MapviewController->runActionWithFilters()
+#12 /var/www/html/imam/banner/protected/framework/web/CWebApplication.php(282): MapviewController->run()
+#13 /var/www/html/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/html/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /var/www/html/imam/banner/index.php(16): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=mapview
+in /var/www/html/imam/banner/protected/views/mapview/maps.php (37)
+in /var/www/html/imam/banner/protected/controllers/MapviewController.php (54)
+in /var/www/html/imam/banner/index.php (16)
+2016/03/30 05:36:03 [error] [php] Undefined index: type (/var/www/html/imam/banner/protected/views/mapview/maps.php:37)
+Stack trace:
+#0 /var/www/html/imam/banner/protected/framework/web/CController.php(869): MapviewController->renderFile()
+#1 /var/www/html/imam/banner/protected/framework/web/CController.php(782): MapviewController->renderPartial()
+#2 /var/www/html/imam/banner/protected/controllers/MapviewController.php(54): MapviewController->render()
+#3 /var/www/html/imam/banner/protected/framework/web/actions/CInlineAction.php(49): MapviewController->actionIndex()
+#4 /var/www/html/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/imam/banner/protected/framework/web/filters/CFilterChain.php(133): MapviewController->runAction()
+#6 /var/www/html/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/html/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/html/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): MapviewController->filterAccessControl()
+#9 /var/www/html/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/html/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/html/imam/banner/protected/framework/web/CController.php(265): MapviewController->runActionWithFilters()
+#12 /var/www/html/imam/banner/protected/framework/web/CWebApplication.php(282): MapviewController->run()
+#13 /var/www/html/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/html/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /var/www/html/imam/banner/index.php(16): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=mapview
+in /var/www/html/imam/banner/protected/views/mapview/maps.php (37)
+in /var/www/html/imam/banner/protected/controllers/MapviewController.php (54)
+in /var/www/html/imam/banner/index.php (16)
+2016/03/30 05:36:04 [error] [php] Undefined index: type (/var/www/html/imam/banner/protected/views/mapview/maps.php:37)
+Stack trace:
+#0 /var/www/html/imam/banner/protected/framework/web/CController.php(869): MapviewController->renderFile()
+#1 /var/www/html/imam/banner/protected/framework/web/CController.php(782): MapviewController->renderPartial()
+#2 /var/www/html/imam/banner/protected/controllers/MapviewController.php(54): MapviewController->render()
+#3 /var/www/html/imam/banner/protected/framework/web/actions/CInlineAction.php(49): MapviewController->actionIndex()
+#4 /var/www/html/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/imam/banner/protected/framework/web/filters/CFilterChain.php(133): MapviewController->runAction()
+#6 /var/www/html/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/html/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/html/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): MapviewController->filterAccessControl()
+#9 /var/www/html/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/html/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/html/imam/banner/protected/framework/web/CController.php(265): MapviewController->runActionWithFilters()
+#12 /var/www/html/imam/banner/protected/framework/web/CWebApplication.php(282): MapviewController->run()
+#13 /var/www/html/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/html/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /var/www/html/imam/banner/index.php(16): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=mapview
+in /var/www/html/imam/banner/protected/views/mapview/maps.php (37)
+in /var/www/html/imam/banner/protected/controllers/MapviewController.php (54)
+in /var/www/html/imam/banner/index.php (16)
+2016/03/31 18:16:30 [error] [php] Undefined index: type (/opt/lampp/htdocs/imam/banner/protected/views/mapview/maps.php:37)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): MapviewController->renderFile()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(782): MapviewController->renderPartial()
+#2 /opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php(54): MapviewController->render()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): MapviewController->actionIndex()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): MapviewController->runAction()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): MapviewController->filterAccessControl()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): MapviewController->runActionWithFilters()
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): MapviewController->run()
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=mapview
+in /opt/lampp/htdocs/imam/banner/protected/views/mapview/maps.php (37)
+in /opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php (54)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/03/31 18:16:33 [error] [php] Undefined index: type (/opt/lampp/htdocs/imam/banner/protected/views/mapview/maps.php:37)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): MapviewController->renderFile()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(782): MapviewController->renderPartial()
+#2 /opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php(54): MapviewController->render()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): MapviewController->actionIndex()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): MapviewController->runAction()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): MapviewController->filterAccessControl()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): MapviewController->runActionWithFilters()
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): MapviewController->run()
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=mapview
+in /opt/lampp/htdocs/imam/banner/protected/views/mapview/maps.php (37)
+in /opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php (54)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/03/31 18:28:59 [error] [php] Undefined index: streetid (/opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php:54)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): MapviewController->runAction()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): MapviewController->filterAccessControl()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): MapviewController->runActionWithFilters()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): MapviewController->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=mapview
+in /opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php (54)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/03/31 18:29:37 [error] [php] Undefined index: streetid (/opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php:54)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): MapviewController->runAction()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): MapviewController->filterAccessControl()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): MapviewController->runActionWithFilters()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): MapviewController->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=mapview
+in /opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php (54)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/01 13:32:56 [error] [exception.CException] exception 'CException' with message 'Properti "Users.hashedPassword" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/ar/CActiveRecord.php(145): CComponent->__get('hashedPassword')
+#1 /opt/lampp/htdocs/imam/banner/protected/components/UserIdentity.php(45): CActiveRecord->__get('hashedPassword')
+#2 /opt/lampp/htdocs/imam/banner/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /opt/lampp/htdocs/imam/banner/protected/controllers/SiteController.php(97): CModel->validate()
+#7 /opt/lampp/htdocs/imam/banner/protected/controllers/SiteController.php(32): SiteController->actionLogin()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/imam/banner/
+HTTP_REFERER=http://otomotifzone.com:3000/imam/banner/
+---
+2016/04/01 13:42:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /opt/lampp/htdocs/imam/banner/protected/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/imam/banner/?r=gii
+---
+2016/04/01 13:44:09 [error] [exception.CException] exception 'CException' with message 'Properti "Users.hashedPassword" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/ar/CActiveRecord.php(145): CComponent->__get('hashedPassword')
+#1 /opt/lampp/htdocs/imam/banner/protected/components/UserIdentity.php(45): CActiveRecord->__get('hashedPassword')
+#2 /opt/lampp/htdocs/imam/banner/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /opt/lampp/htdocs/imam/banner/protected/controllers/SiteController.php(97): CModel->validate()
+#7 /opt/lampp/htdocs/imam/banner/protected/controllers/SiteController.php(32): SiteController->actionLogin()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/imam/banner/
+HTTP_REFERER=http://otomotifzone.com:3000/imam/banner/
+---
+2016/04/01 13:46:24 [error] [exception.CException] exception 'CException' with message 'Properti "Devices.uniqueId" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/ar/CActiveRecord.php(145): CComponent->__get('uniqueId')
+#1 /opt/lampp/htdocs/imam/banner/protected/models/Devices.php(125): CActiveRecord->__get('uniqueId')
+#2 /opt/lampp/htdocs/imam/banner/protected/views/devices/admin.php(39): Devices->search()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#7 /opt/lampp/htdocs/imam/banner/protected/controllers/DevicesController.php(133): CController->render('admin', Array)
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): DevicesController->actionIndex()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#16 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#18 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('devices')
+#19 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#21 {main}
+REQUEST_URI=/imam/banner/index.php?r=devices
+HTTP_REFERER=http://otomotifzone.com:3000/imam/banner/index.php
+---
+2016/04/01 14:00:37 [error] [php] Undefined index: deviceId (/opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php:57)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): MapviewController->runAction()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): MapviewController->filterAccessControl()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): MapviewController->runActionWithFilters()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): MapviewController->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=mapview
+in /opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php (57)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/01 14:16:49 [error] [system.db.CDbCommand] CDbCommand::fetch() gagal: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "undefined"
+LINE 1: ...oin devices d on d.id=p.deviceId where p.deviceId='undefined...
+                                                             ^. Statement SQL yang dijalankan: select p.deviceTime,p.deviceId,p.latitude,p.longitude,d.name,d.status,d.uniqueId,d.protocol,d.tipe,d.merek from positions p left join devices d on d.id=p.deviceId where p.deviceId='undefined' order by p.deviceTime DESC limit 1.
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (57)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/01 14:16:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "undefined"
+LINE 1: ...oin devices d on d.id=p.deviceId where p.deviceId='undefined...
+                                                             ^. The SQL statement executed was: select p.deviceTime,p.deviceId,p.latitude,p.longitude,d.name,d.status,d.uniqueId,d.protocol,d.tipe,d.merek from positions p left join devices d on d.id=p.deviceId where p.deviceId='undefined' order by p.deviceTime DESC limit 1' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(57): CDbCommand->queryRow()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner&deviceid=undefined
+HTTP_REFERER=http://otomotifzone.com:3000/imam/banner/index.php?r=mapview&deviceid=2
+---
+2016/04/01 14:17:07 [error] [system.db.CDbCommand] CDbCommand::fetch() gagal: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "undefined"
+LINE 1: ...oin devices d on d.id=p.deviceId where p.deviceId='undefined...
+                                                             ^. Statement SQL yang dijalankan: select p.deviceTime,p.deviceId,p.latitude,p.longitude,d.name,d.status,d.uniqueId,d.protocol,d.tipe,d.merek from positions p left join devices d on d.id=p.deviceId where p.deviceId='undefined' order by p.deviceTime DESC limit 1.
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (57)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/01 14:17:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "undefined"
+LINE 1: ...oin devices d on d.id=p.deviceId where p.deviceId='undefined...
+                                                             ^. The SQL statement executed was: select p.deviceTime,p.deviceId,p.latitude,p.longitude,d.name,d.status,d.uniqueId,d.protocol,d.tipe,d.merek from positions p left join devices d on d.id=p.deviceId where p.deviceId='undefined' order by p.deviceTime DESC limit 1' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(57): CDbCommand->queryRow()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner&deviceid=undefined
+HTTP_REFERER=http://otomotifzone.com:3000/imam/banner/index.php?r=mapview&deviceid=2
+---
+2016/04/02 09:27:12 [error] [exception.CException] exception 'CException' with message 'Properti "Users.hashedPassword" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/ar/CActiveRecord.php(145): CComponent->__get('hashedPassword')
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/helpers/CHtml.php(2728): CActiveRecord->__get('hashedPassword')
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/helpers/CHtml.php(2451): CHtml::resolveValue(Object(Users), 'hashedPassword')
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/helpers/CHtml.php(1533): CHtml::activeInputField('text', Object(Users), 'hashedPassword', Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/widgets/CActiveForm.php(792): CHtml::activeTextField(Object(Users), 'hashedPassword', Array)
+#5 /opt/lampp/htdocs/imam/banner/protected/views/users/_form.php(37): CActiveForm->textField(Object(Users), 'hashedPassword', Array)
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#9 /opt/lampp/htdocs/imam/banner/protected/views/users/create.php(26): CController->renderPartial('_form', Array)
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#14 /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php(79): CController->render('create', Array)
+#15 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): UsersController->actionCreate()
+#16 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#23 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('create')
+#25 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#26 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#27 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#28 {main}
+REQUEST_URI=/imam/banner/index.php?r=users/create
+HTTP_REFERER=http://otomotifzone.com:3000/imam/banner/index.php?r=users
+---
+2016/04/02 10:07:07 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:07:07 [error] [php] password_hash() expects at least 2 parameters, 0 given (/opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php:75)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): UsersController->run()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=users/create
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (75)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:08:17 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:08:20 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:10:05 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:10:08 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:10:12 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:10:43 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:13:03 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:13:38 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:13:38 [error] [php] hex2bin(): Input string must be hexadecimal string (/opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php:75)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): UsersController->run()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=users/create
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (75)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:13:57 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:13:58 [error] [exception.CException] exception 'CException' with message 'Properti "UsersController.password" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php(76): CComponent->__get('password')
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): UsersController->actionCreate()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('create')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/imam/banner/index.php?r=users/create
+HTTP_REFERER=http://www.otomotifzone.com:3000/imam/banner/index.php?r=users/create
+---
+2016/04/02 10:17:04 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:17:04 [error] [exception.CException] exception 'CException' with message 'Properti "UsersController.password" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php(76): CComponent->__get('password')
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): UsersController->actionCreate()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('create')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/imam/banner/index.php?r=users/create
+HTTP_REFERER=http://www.otomotifzone.com:3000/imam/banner/index.php?r=users/create
+---
+2016/04/02 10:18:35 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:19:03 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:23:31 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:24:09 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:24:10 [error] [php] hex2bin(): Input string must be hexadecimal string (/opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php:75)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): UsersController->run()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=users/create
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (75)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:24:20 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:24:20 [error] [php] Undefined variable: key (/opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php:77)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): UsersController->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=users/create
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (77)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:24:46 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:24:46 [error] [exception.CException] exception 'CException' with message 'Properti "Users.hashedPassword" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/ar/CActiveRecord.php(161): CComponent->__set('hashedPassword', 'E5299761C46CC4E...')
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php(78): CActiveRecord->__set('hashedPassword', 'E5299761C46CC4E...')
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): UsersController->actionCreate()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('create')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=users/create
+HTTP_REFERER=http://www.otomotifzone.com:3000/imam/banner/index.php?r=users/create
+---
+2016/04/02 10:25:40 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:26:06 [error] [php] hex2bin(): Input string must be hexadecimal string (/opt/lampp/htdocs/imam/banner/protected/components/UserIdentity.php:30)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/base/CModel.php(159): CInlineValidator->validate()
+#3 /opt/lampp/htdocs/imam/banner/protected/controllers/SiteController.php(97): LoginForm->validate()
+#4 /opt/lampp/htdocs/imam/banner/protected/controllers/SiteController.php(32): SiteController->actionLogin()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(286): SiteController->runAction()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php
+in /opt/lampp/htdocs/imam/banner/protected/components/UserIdentity.php (30)
+in /opt/lampp/htdocs/imam/banner/protected/models/LoginForm.php (52)
+in /opt/lampp/htdocs/imam/banner/protected/controllers/SiteController.php (97)
+2016/04/02 10:26:30 [error] [php] hex2bin(): Input string must be hexadecimal string (/opt/lampp/htdocs/imam/banner/protected/components/UserIdentity.php:30)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/base/CModel.php(159): CInlineValidator->validate()
+#3 /opt/lampp/htdocs/imam/banner/protected/controllers/SiteController.php(97): LoginForm->validate()
+#4 /opt/lampp/htdocs/imam/banner/protected/controllers/SiteController.php(32): SiteController->actionLogin()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(286): SiteController->runAction()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php
+in /opt/lampp/htdocs/imam/banner/protected/components/UserIdentity.php (30)
+in /opt/lampp/htdocs/imam/banner/protected/models/LoginForm.php (52)
+in /opt/lampp/htdocs/imam/banner/protected/controllers/SiteController.php (97)
+2016/04/02 10:29:10 [error] [php] hex2bin(): Input string must be hexadecimal string (/opt/lampp/htdocs/imam/banner/protected/components/UserIdentity.php:30)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/base/CModel.php(159): CInlineValidator->validate()
+#3 /opt/lampp/htdocs/imam/banner/protected/controllers/SiteController.php(97): LoginForm->validate()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(286): SiteController->runAction()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=site/login
+in /opt/lampp/htdocs/imam/banner/protected/components/UserIdentity.php (30)
+in /opt/lampp/htdocs/imam/banner/protected/models/LoginForm.php (52)
+in /opt/lampp/htdocs/imam/banner/protected/controllers/SiteController.php (97)
+2016/04/02 10:29:45 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:29:45 [error] [exception.CException] exception 'CException' with message 'Users dan behaviornya tidak memiliki method ataupun closure bernama "salt"' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/ar/CActiveRecord.php(227): CComponent->__call('salt', Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php(74): CActiveRecord->__call('salt', Array)
+#2 /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php(74): Users->salt()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): UsersController->actionCreate()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#14 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#16 {main}
+REQUEST_URI=/imam/banner/index.php?r=users/create
+HTTP_REFERER=http://www.otomotifzone.com:3000/imam/banner/index.php?r=users/create
+---
+2016/04/02 10:29:55 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:31:07 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:31:34 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:34:43 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:34:43 [error] [php] Undefined variable: d (/opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php:78)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): UsersController->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=users/create
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (78)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:34:54 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:35:18 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:35:43 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:36:30 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:36:32 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:36:38 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:36:54 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:37:06 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:38:10 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:38:14 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:38:27 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:38:30 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:39:04 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:39:18 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:39:20 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 10:39:47 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
+in /opt/lampp/htdocs/imam/banner/protected/controllers/UsersController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 11:05:49 [error] [system.db.CDbCommand] CDbCommand::fetch() gagal: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""
+LINE 1: ...oin devices d on d.id=p.deviceId where p.deviceId='' order b...
+                                                             ^. Statement SQL yang dijalankan: select p.deviceTime,p.deviceId,p.latitude,p.longitude,d.name,d.status,d.uniqueId,d.protocol,d.tipe,d.merek from positions p left join devices d on d.id=p.deviceId where p.deviceId='' order by p.deviceTime DESC limit 1.
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (57)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 11:05:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""
+LINE 1: ...oin devices d on d.id=p.deviceId where p.deviceId='' order b...
+                                                             ^. The SQL statement executed was: select p.deviceTime,p.deviceId,p.latitude,p.longitude,d.name,d.status,d.uniqueId,d.protocol,d.tipe,d.merek from positions p left join devices d on d.id=p.deviceId where p.deviceId='' order by p.deviceTime DESC limit 1' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(57): CDbCommand->queryRow()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner&deviceid=2
+---
+2016/04/02 11:25:33 [error] [system.db.CDbCommand] CDbCommand::fetch() gagal: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""
+LINE 1: ...oin devices d on d.id=p.deviceid where p.deviceid='' order b...
+                                                             ^. Statement SQL yang dijalankan: select p.deviceTime,p.deviceid,p.latitude,p.longitude,d.name,d.status,d.uniqueId,d.protocol,d.tipe,d.merek from positions p left join devices d on d.id=p.deviceid where p.deviceid='' order by p.deviceTime DESC limit 1.
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (57)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 11:25:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""
+LINE 1: ...oin devices d on d.id=p.deviceid where p.deviceid='' order b...
+                                                             ^. The SQL statement executed was: select p.deviceTime,p.deviceid,p.latitude,p.longitude,d.name,d.status,d.uniqueId,d.protocol,d.tipe,d.merek from positions p left join devices d on d.id=p.deviceid where p.deviceid='' order by p.deviceTime DESC limit 1' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(57): CDbCommand->queryRow()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner&deviceid=2
+---
+2016/04/02 11:30:03 [error] [system.db.CDbCommand] CDbCommand::fetch() gagal: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""
+LINE 1: ...oin devices d on d.id=p.deviceid where p.deviceid='' order b...
+                                                             ^. Statement SQL yang dijalankan: select p.deviceTime,p.deviceid,p.latitude,p.longitude,d.name,d.status,d.uniqueId,d.protocol,d.tipe,d.merek from positions p left join devices d on d.id=p.deviceid where p.deviceid='' order by p.deviceTime DESC limit 1.
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (57)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 11:30:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""
+LINE 1: ...oin devices d on d.id=p.deviceid where p.deviceid='' order b...
+                                                             ^. The SQL statement executed was: select p.deviceTime,p.deviceid,p.latitude,p.longitude,d.name,d.status,d.uniqueId,d.protocol,d.tipe,d.merek from positions p left join devices d on d.id=p.deviceid where p.deviceid='' order by p.deviceTime DESC limit 1' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(57): CDbCommand->queryRow()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner&deviceid=2
+---
+2016/04/02 11:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Device does not exist.' in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:141
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+---
+2016/04/02 11:32:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Device does not exist.' in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:141
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner&deviceid=2
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=devices
+---
+2016/04/02 11:34:21 [error] [system.db.CDbCommand] CDbCommand::fetch() gagal: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "deviceid" does not exist
+LINE 1: select * from devices where deviceid='2'
+                                    ^. Statement SQL yang dijalankan: select * from devices where deviceid='2'.
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (58)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 11:34:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "deviceid" does not exist
+LINE 1: select * from devices where deviceid='2'
+                                    ^. The SQL statement executed was: select * from devices where deviceid='2'' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(58): CDbCommand->queryRow()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner&deviceid=2
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=devices
+---
+2016/04/02 11:35:46 [error] [system.db.CDbCommand] CDbCommand::fetch() gagal: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""
+LINE 1: select * from devices where id=''
+                                       ^. Statement SQL yang dijalankan: select * from devices where id=''.
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (58)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 11:35:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""
+LINE 1: select * from devices where id=''
+                                       ^. The SQL statement executed was: select * from devices where id=''' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(58): CDbCommand->queryRow()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner&deviceid=2
+---
+2016/04/02 11:36:26 [error] [system.db.CDbCommand] CDbCommand::fetch() gagal: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""
+LINE 1: select * from devices where id=''
+                                       ^. Statement SQL yang dijalankan: select * from devices where id=''.
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (58)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 11:36:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: ""
+LINE 1: select * from devices where id=''
+                                       ^. The SQL statement executed was: select * from devices where id=''' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(58): CDbCommand->queryRow()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner&deviceid=2
+---
+2016/04/02 11:37:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Device does not exist.' in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:144
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+---
+2016/04/02 11:42:44 [error] [php] Object of class DateInterval could not be converted to int (/opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:77)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CalculatebannerController->runAction()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CalculatebannerController->filterAccessControl()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CalculatebannerController->runActionWithFilters()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CalculatebannerController->run()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (77)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 11:42:53 [error] [php] Object of class DateInterval could not be converted to int (/opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:77)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CalculatebannerController->runAction()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CalculatebannerController->filterAccessControl()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CalculatebannerController->runActionWithFilters()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CalculatebannerController->run()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (77)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 11:43:53 [error] [php] Undefined variable: ddeviceid (/opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:85)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CalculatebannerController->runAction()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CalculatebannerController->filterAccessControl()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CalculatebannerController->runActionWithFilters()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CalculatebannerController->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (85)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 11:44:18 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() gagal: SQLSTATE[42883]: Undefined function: 7 ERROR:  function unix_timestamp(timestamp without time zone) does not exist
+LINE 1: ...t count(*) from positions where deviceid='2' and (unix_times...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.. Statement SQL yang dijalankan: select count(*) from positions where deviceid='2' and (unix_timestamp(deviceTime) between 1459139820 and 1459571820).
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (86)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 11:44:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[42883]: Undefined function: 7 ERROR:  function unix_timestamp(timestamp without time zone) does not exist
+LINE 1: ...t count(*) from positions where deviceid='2' and (unix_times...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.. The SQL statement executed was: select count(*) from positions where deviceid='2' and (unix_timestamp(deviceTime) between 1459139820 and 1459571820)' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(86): CDbCommand->queryScalar()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner&deviceid=2
+---
+2016/04/02 11:57:14 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() gagal: SQLSTATE[42883]: Undefined function: 7 ERROR:  function unix_timestamp(timestamp without time zone) does not exist
+LINE 1: ...t count(*) from positions where deviceid='2' and (unix_times...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.. Statement SQL yang dijalankan: select count(*) from positions where deviceid='2' and (unix_timestamp(devicetime) between 1459139820 and 1459571820).
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (81)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 11:57:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[42883]: Undefined function: 7 ERROR:  function unix_timestamp(timestamp without time zone) does not exist
+LINE 1: ...t count(*) from positions where deviceid='2' and (unix_times...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.. The SQL statement executed was: select count(*) from positions where deviceid='2' and (unix_timestamp(devicetime) between 1459139820 and 1459571820)' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(81): CDbCommand->queryScalar()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner&deviceid=2
+---
+2016/04/02 12:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Device does not exist.' in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:157
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+---
+2016/04/02 12:29:31 [error] [php] Undefined index: m (/opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:72)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CalculatebannerController->runAction()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CalculatebannerController->filterAccessControl()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CalculatebannerController->runActionWithFilters()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CalculatebannerController->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner&deviceid=2
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 12:29:33 [error] [php] Undefined index: m (/opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:72)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CalculatebannerController->runAction()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CalculatebannerController->filterAccessControl()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CalculatebannerController->runActionWithFilters()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CalculatebannerController->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner&deviceid=2
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (72)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 12:53:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() gagal: SQLSTATE[42601]: Syntax error: 7 ERROR:  LIMIT #,# syntax is not supported
+LINE 1: ...35592220 and 1436024220)  order by devicetime ASC limit 0,10
+                                                             ^
+HINT:  Use separate LIMIT and OFFSET clauses.. Statement SQL yang dijalankan: select latitude,longitude,devicetime from positions where deviceid='2'  and (extract(epoch from devicetime) between 1435592220 and 1436024220)  order by devicetime ASC limit 0,10.
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (111)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 12:53:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[42601]: Syntax error: 7 ERROR:  LIMIT #,# syntax is not supported
+LINE 1: ...35592220 and 1436024220)  order by devicetime ASC limit 0,10
+                                                             ^
+HINT:  Use separate LIMIT and OFFSET clauses.. The SQL statement executed was: select latitude,longitude,devicetime from positions where deviceid='2'  and (extract(epoch from devicetime) between 1435592220 and 1436024220)  order by devicetime ASC limit 0,10' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(111): CDbCommand->queryAll()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner&deviceid=2
+---
+2016/04/02 13:17:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Device does not exist.' in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:165
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+---
+2016/04/02 15:31:52 [error] [exception.CException] exception 'CException' with message 'Properti "Roadweight.street_id" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/ar/CActiveRecord.php(145): CComponent->__get('street_id')
+#1 /opt/lampp/htdocs/imam/banner/protected/models/Roadweight.php(92): CActiveRecord->__get('street_id')
+#2 /opt/lampp/htdocs/imam/banner/protected/views/roadweight/admin.php(59): Roadweight->search()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#7 /opt/lampp/htdocs/imam/banner/protected/controllers/RoadweightController.php(129): CController->render('admin', Array)
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): RoadweightController->actionIndex()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#16 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#18 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('roadweight')
+#19 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#20 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#21 {main}
+REQUEST_URI=/imam/banner/index.php?r=roadweight
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=mapview
+---
+2016/04/02 15:44:01 [error] [system.db.CDbCommand] CDbCommand::fetch() gagal: SQLSTATE[42703]: Undefined column: 7 ERROR:  column r.street_id does not exist
+LINE 1: select r.street_id,r.street_name,r.weight,r.lat as latitude,...
+               ^. Statement SQL yang dijalankan: select r.street_id,r.street_name,r.weight,r.lat as latitude,r.lon as longitude from roadweight r where r.street_id='1' limit 1.
+in /opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php (51)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 15:44:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[42703]: Undefined column: 7 ERROR:  column r.street_id does not exist
+LINE 1: select r.street_id,r.street_name,r.weight,r.lat as latitude,...
+               ^. The SQL statement executed was: select r.street_id,r.street_name,r.weight,r.lat as latitude,r.lon as longitude from roadweight r where r.street_id='1' limit 1' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php(51): CDbCommand->queryRow()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): MapviewController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('mapview')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=mapview&streetid=1
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=roadweight
+---
+2016/04/02 20:40:10 [error] [php] Undefined index: longitude (/opt/lampp/htdocs/imam/banner/protected/views/mapview/maps.php:69)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): MapviewController->renderFile()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(782): MapviewController->renderPartial()
+#2 /opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php(63): MapviewController->render()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): MapviewController->actionIndex()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): MapviewController->runAction()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): MapviewController->filterAccessControl()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): MapviewController->runActionWithFilters()
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): MapviewController->run()
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=mapview&deviceid=4
+in /opt/lampp/htdocs/imam/banner/protected/views/mapview/maps.php (69)
+in /opt/lampp/htdocs/imam/banner/protected/controllers/MapviewController.php (63)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 20:44:33 [error] [exception.CException] exception 'CException' with message 'Properti "Devices.uniqueId" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/ar/CActiveRecord.php(145): CComponent->__get('uniqueId')
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/helpers/CHtml.php(2728): CActiveRecord->__get('uniqueId')
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/helpers/CHtml.php(2451): CHtml::resolveValue(Object(Devices), 'uniqueId')
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/helpers/CHtml.php(1533): CHtml::activeInputField('text', Object(Devices), 'uniqueId', Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/widgets/CActiveForm.php(792): CHtml::activeTextField(Object(Devices), 'uniqueId', Array)
+#5 /opt/lampp/htdocs/imam/banner/protected/views/devices/_form.php(31): CActiveForm->textField(Object(Devices), 'uniqueId', Array)
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#9 /opt/lampp/htdocs/imam/banner/protected/views/devices/create.php(26): CController->renderPartial('_form', Array)
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#14 /opt/lampp/htdocs/imam/banner/protected/controllers/DevicesController.php(79): CController->render('create', Array)
+#15 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): DevicesController->actionCreate()
+#16 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#23 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('create')
+#25 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('devices/create')
+#26 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#27 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#28 {main}
+REQUEST_URI=/imam/banner/index.php?r=devices/create
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=site/login
+---
+2016/04/02 20:46:29 [error] [exception.CException] exception 'CException' with message 'Properti "Devices.street_name" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/ar/CActiveRecord.php(145): CComponent->__get('street_name')
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/helpers/CHtml.php(2728): CActiveRecord->__get('street_name')
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/helpers/CHtml.php(2451): CHtml::resolveValue(Object(Devices), 'street_name')
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/helpers/CHtml.php(1533): CHtml::activeInputField('text', Object(Devices), 'street_name', Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/widgets/CActiveForm.php(792): CHtml::activeTextField(Object(Devices), 'street_name', Array)
+#5 /opt/lampp/htdocs/imam/banner/protected/views/devices/_search.php(16): CActiveForm->textField(Object(Devices), 'street_name', Array)
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#9 /opt/lampp/htdocs/imam/banner/protected/views/devices/admin.php(44): CController->renderPartial('_search', Array)
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#14 /opt/lampp/htdocs/imam/banner/protected/controllers/DevicesController.php(133): CController->render('admin', Array)
+#15 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): DevicesController->actionIndex()
+#16 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#23 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#25 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('devices')
+#26 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#27 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#28 {main}
+REQUEST_URI=/imam/banner/index.php?r=devices
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=roadweight
+---
+2016/04/02 20:50:51 [error] [exception.CException] exception 'CException' with message 'Properti "Devices.osm_id" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/ar/CActiveRecord.php(145): CComponent->__get('osm_id')
+#1 /opt/lampp/htdocs/imam/banner/protected/views/devices/admin.php(66): CActiveRecord->__get('osm_id')
+#2 [internal function]: CBaseController->{closure}(Object(Devices), 0, Object(CButtonColumn))
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php(617): call_user_func_array(Object(Closure), Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/zii/widgets/grid/CButtonColumn.php(342): CComponent->evaluateExpression(Object(Closure), Array)
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/zii/widgets/grid/CButtonColumn.php(321): CButtonColumn->renderButton('maps', Array, 0, Object(Devices))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/zii/widgets/grid/CGridColumn.php(231): CButtonColumn->getDataCellContent(0)
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/zii/widgets/grid/CGridColumn.php(154): CGridColumn->renderDataCellContent(0, Object(Devices))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/zii/widgets/grid/CGridView.php(638): CGridColumn->renderDataCell(0)
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/zii/widgets/grid/CGridView.php(622): CGridView->renderDataCell(Object(CButtonColumn), 0)
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/zii/widgets/grid/CGridView.php(578): CGridView->renderTableRow(0)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/zii/widgets/grid/CGridView.php(488): CGridView->renderTableBody()
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/zii/widgets/CBaseListView.php(181): CGridView->renderItems()
+#13 [internal function]: CBaseListView->renderSection(Array)
+#14 /opt/lampp/htdocs/imam/banner/protected/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{exportButtons}...')
+#15 /opt/lampp/htdocs/imam/banner/protected/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#16 /opt/lampp/htdocs/imam/banner/protected/extensions/EExcelView.php(535): CBaseListView->run()
+#17 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(181): EExcelView->run()
+#18 /opt/lampp/htdocs/imam/banner/protected/views/devices/admin.php(74): CBaseController->widget('ext.EExcelView', Array)
+#19 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#20 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#21 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#22 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#23 /opt/lampp/htdocs/imam/banner/protected/controllers/DevicesController.php(133): CController->render('admin', Array)
+#24 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): DevicesController->actionIndex()
+#25 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#26 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#27 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#28 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#29 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#30 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#31 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#32 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#33 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#34 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('devices')
+#35 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#36 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#37 {main}
+REQUEST_URI=/imam/banner/index.php?r=devices
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=mapview&streetid=178418028
+---
+2016/04/02 21:05:09 [error] [exception.CException] exception 'CException' with message 'Properti "CWebApplication.name" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/base/CModule.php(105): CComponent->__get('name')
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(236): CModule->__get('name')
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/auth/CWebUser.php(547): CApplication->getId()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/auth/CWebUser.php(574): CWebUser->getStateKeyPrefix()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/auth/CWebUser.php(288): CWebUser->getState('__id')
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/auth/CWebUser.php(200): CWebUser->getIsGuest()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/base/CModule.php(394): CWebUser->init()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(209): CModule->getComponent('user')
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/auth/CAccessControlFilter.php(132): CWebApplication->getUser()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#14 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#16 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#17 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner&deviceid=2
+---
+2016/04/02 21:10:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Device does not exist.' in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:114
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+---
+2016/04/02 21:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Device does not exist.' in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+---
+2016/04/02 21:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Device does not exist.' in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+---
+2016/04/02 21:16:20 [error] [php] Undefined index: langitude (/opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:99)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CalculatebannerController->runAction()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CalculatebannerController->filterAccessControl()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CalculatebannerController->runActionWithFilters()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CalculatebannerController->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (99)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 21:18:04 [error] [php] Undefined variable: st (/opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:100)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CalculatebannerController->runAction()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CalculatebannerController->filterAccessControl()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CalculatebannerController->runActionWithFilters()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CalculatebannerController->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (100)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 21:27:57 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() gagal: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: SELECT osm_id FROM roadweight where osm_id=
+                                                   ^. Statement SQL yang dijalankan: SELECT osm_id FROM roadweight where osm_id=.
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (106)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/02 21:27:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: SELECT osm_id FROM roadweight where osm_id=
+                                                   ^. The SQL statement executed was: SELECT osm_id FROM roadweight where osm_id=' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(106): CDbCommand->queryScalar()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner
+---
+2016/04/03 10:35:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Device does not exist.' in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:137
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner&deviceid=2
+---
+2016/04/03 10:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Device does not exist.' in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php:137
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner&deviceid=2
+---
+2016/04/03 12:15:57 [error] [exception.CException] exception 'CException' with message 'Properti "Roadweight.street_name" tidak didefinisikan.' in /opt/lampp/htdocs/imam/banner/protected/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/ar/CActiveRecord.php(145): CComponent->__get('street_name')
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/helpers/CHtml.php(2728): CActiveRecord->__get('street_name')
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/helpers/CHtml.php(2451): CHtml::resolveValue(Object(Roadweight), 'street_name')
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/helpers/CHtml.php(1533): CHtml::activeInputField('text', Object(Roadweight), 'street_name', Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/widgets/CActiveForm.php(792): CHtml::activeTextField(Object(Roadweight), 'street_name', Array)
+#5 /opt/lampp/htdocs/imam/banner/protected/views/roadweight/_search.php(15): CActiveForm->textField(Object(Roadweight), 'street_name', Array)
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#9 /opt/lampp/htdocs/imam/banner/protected/views/roadweight/admin.php(44): CController->renderPartial('_search', Array)
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#14 /opt/lampp/htdocs/imam/banner/protected/controllers/RoadweightController.php(133): CController->render('admin', Array)
+#15 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): RoadweightController->actionIndex()
+#16 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#23 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#25 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('roadweight')
+#26 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#27 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#28 {main}
+REQUEST_URI=/imam/banner/index.php?r=roadweight
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=devices
+---
+2016/04/03 12:41:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() gagal: SQLSTATE[42703]: Undefined column: 7 ERROR:  column r.weight does not exist
+LINE 1: ...device_id,r.osm_id,r.name,r.checkin_time,COALESCE(r.weight,0...
+                                                             ^. Statement SQL yang dijalankan: select r.id,r.device_id,r.osm_id,r.name,r.checkin_time,COALESCE(r.weight,0) as score,r.latitude,r.longitude from banner_route r left join roadweight w on w.osm_id=r.osm_id  where r.device_id=2 and (EXTRACT(epoch FROM r.checkin_time) between 1459229940 and 1459661940).
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (93)
+in /opt/lampp/htdocs/imam/banner/index.php (17)
+2016/04/03 12:41:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand gagal menjalankan statementSQL: SQLSTATE[42703]: Undefined column: 7 ERROR:  column r.weight does not exist
+LINE 1: ...device_id,r.osm_id,r.name,r.checkin_time,COALESCE(r.weight,0...
+                                                             ^. The SQL statement executed was: select r.id,r.device_id,r.osm_id,r.name,r.checkin_time,COALESCE(r.weight,0) as score,r.latitude,r.longitude from banner_route r left join roadweight w on w.osm_id=r.osm_id  where r.device_id=2 and (EXTRACT(epoch FROM r.checkin_time) between 1459229940 and 1459661940)' in /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(93): CDbCommand->queryAll()
+#2 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CController->run('')
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('calculatebanner')
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/imam/banner/index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+HTTP_REFERER=http://www.otomotifzone.com:82/imam/banner/index.php?r=calculatebanner
+---
+2016/04/03 12:46:42 [error] [php] Undefined variable: totalweight (/opt/lampp/htdocs/imam/banner/protected/views/calculatebanner/calculate.php:73)
+Stack trace:
+#0 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(869): CalculatebannerController->renderFile()
+#1 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(782): CalculatebannerController->renderPartial()
+#2 /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php(130): CalculatebannerController->render()
+#3 /opt/lampp/htdocs/imam/banner/protected/framework/web/actions/CInlineAction.php(49): CalculatebannerController->actionIndex()
+#4 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(133): CalculatebannerController->runAction()
+#6 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CInlineFilter.php(58): CalculatebannerController->filterAccessControl()
+#9 /opt/lampp/htdocs/imam/banner/protected/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(291): CFilterChain->run()
+#11 /opt/lampp/htdocs/imam/banner/protected/framework/web/CController.php(265): CalculatebannerController->runActionWithFilters()
+#12 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(282): CalculatebannerController->run()
+#13 /opt/lampp/htdocs/imam/banner/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /opt/lampp/htdocs/imam/banner/protected/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/imam/banner/index.php(17): CWebApplication->run()
+REQUEST_URI=/imam/banner/index.php?r=calculatebanner
+in /opt/lampp/htdocs/imam/banner/protected/views/calculatebanner/calculate.php (73)
+in /opt/lampp/htdocs/imam/banner/protected/controllers/CalculatebannerController.php (130)
+in /opt/lampp/htdocs/imam/banner/index.php (17)

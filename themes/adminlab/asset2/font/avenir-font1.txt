@@ -1,0 +1,21 @@
+<script src="http://cufon.shoqolate.com/js/cufon-yui.js" type="text/javascript"></script>
+<script src="avenir-next-lt-pro.cufonfonts.js" type="text/javascript"></script>
+<script type="text/javascript">
+Cufon.replace('.avenir-next-lt-pro-condensed', { fontFamily: 'Avenir Next LT Pro Condensed', hover: true });
+Cufon.replace('.avenir-next-lt-pro-demi', { fontFamily: 'Avenir Next LT Pro Demi', hover: true });
+Cufon.replace('.avenir-next-lt-pro-demi-condensed', { fontFamily: 'Avenir Next LT Pro Demi Condensed', hover: true });
+Cufon.replace('.avenir-next-lt-pro-heavy-condensed', { fontFamily: 'Avenir Next LT Pro Heavy Condensed', hover: true });
+Cufon.replace('.avenir-next-lt-pro-medium-condensed', { fontFamily: 'Avenir Next LT Pro Medium Condensed', hover: true });
+Cufon.replace('.avenir-next-lt-pro-regular', { fontFamily: 'Avenir Next LT Pro Regular', hover: true });
+Cufon.replace('.avenir-next-lt-pro-ultra-light-condensed', { fontFamily: 'Avenir Next LT Pro Ultra Light Condensed', hover: true });
+Cufon.replace('.avenir-next-lt-pro-bold', { fontFamily: 'Avenir Next LT Pro Bold', hover: true });
+Cufon.replace('.avenir-next-lt-pro-bold-condensed', { fontFamily: 'Avenir Next LT Pro Bold Condensed', hover: true });
+Cufon.replace('.avenir-next-lt-pro-bold-condensed-italic', { fontFamily: 'Avenir Next LT Pro Bold Condensed Italic', hover: true });
+Cufon.replace('.avenir-next-lt-pro-condensed-italic', { fontFamily: 'Avenir Next LT Pro Condensed Italic', hover: true });
+Cufon.replace('.avenir-next-lt-pro-demi-condensed-italic', { fontFamily: 'Avenir Next LT Pro Demi Condensed Italic', hover: true });
+Cufon.replace('.avenir-next-lt-pro-demi-italic', { fontFamily: 'Avenir Next LT Pro Demi Italic', hover: true });
+Cufon.replace('.avenir-next-lt-pro-heavy-condensed-italic', { fontFamily: 'Avenir Next LT Pro Heavy Condensed Italic', hover: true });
+Cufon.replace('.avenir-next-lt-pro-italic', { fontFamily: 'Avenir Next LT Pro Italic', hover: true });
+Cufon.replace('.avenir-next-lt-pro-medium-condensed-italic', { fontFamily: 'Avenir Next LT Pro Medium Condensed Italic', hover: true });
+Cufon.replace('.avenir-next-lt-pro-ultra-light-condensed-italic', { fontFamily: 'Avenir Next LT Pro Ultra Light Condensed Italic', hover: true });
+</script>
