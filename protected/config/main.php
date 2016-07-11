@@ -1,13 +1,6 @@
 <?php
 
 date_default_timezone_set('Asia/Jakarta');
-//$localIP = getHostByName(getHostName());
-//if(!($localIP=='192.168.200.119' || $localIP=='192.168.2.80')) die("maaf lisensi 2.0 tidak teridentifikasi");
-/*$server_name=exec('hostname');
-if($server_name!="x11r6" && $server_name!='simpeg') die("maaf lisensi 2.1 tidak teridentifikasi");
-$tm=strtotime('2015-05-18');
-if(time()>$tm)die("program exit code 5, please contact vendor");
-*/
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
 // This is the main Web application configuration. Any writable
@@ -100,8 +93,8 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'ServerGoogleAPI'=>"AIzaSyDrlTRMCChZ6b9fhgLjDun-kpeSO2xo41o",
-		'BrowserGoogleAPI'=>"AIzaSyDC5yU4VaL5O6DrxDaTM0001eRo4F6CPro",
+		'ServerGoogleAPI'=>"",
+		'BrowserGoogleAPI'=>"",
 		'adminEmail'=>'webmaster@example.com',
 	),
 );
